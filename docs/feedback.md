@@ -5,9 +5,13 @@
 ## 提交反馈
 
 <div class="feedback-links">
+  <a class="feedback-card" href="mailto:buttsnap@unoiou.com">
+    <h3>📧 发送邮件（推荐）</h3>
+    <p>无需注册任何账号，直接发送邮件到 buttsnap@unoiou.com，我们会尽快回复你。这是最直接的联系方式。</p>
+  </a>
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 报告 Bug</h3>
-    <p>贴纸效果异常？App 闪退？界面错乱？告诉我们，我们会尽快修复。</p>
+    <p>贴纸效果异常？App 闪退？界面错乱？告诉我们，我们会尽快修复。（需要 GitHub 账号）</p>
   </a>
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 功能建议</h3>
@@ -40,11 +44,5 @@
 - 你希望这个功能解决什么场景下的需求？
 - 你平时遇到什么情况时会想起「要是 ButtSnap 能这样就好了」？
 - 有没有在其他 App 里见过类似功能，可以作为参考？
-
-## 其他联系方式
-
-除了 GitHub Issues，你也可以通过邮件和我们聊聊：
-
-📧 [buttsnap@unoiou.com](mailto:buttsnap@unoiou.com)
 
 我们是一个小团队，每一条反馈都会认真看。你的想法可能会成为 ButtSnap 下一个版本的新功能哦。
