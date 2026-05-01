@@ -140,6 +140,130 @@ export default defineConfig({
         langMenuLabel: 'Change language',
       },
     },
+
+    ja: {
+      label: '日本語',
+      lang: 'ja-JP',
+      dir: 'ltr',
+      title: 'ButtSnap - アプリの使い方 & コミュニティ',
+      description: 'ButtSnapアプリの使い方ガイド、よくある質問、利用規約、プライバシーポリシー',
+
+      themeConfig: {
+        nav: [
+          { text: 'ホーム', link: '/ja/' },
+          { text: '使い方', link: '/ja/guide/' },
+          { text: 'よくある質問', link: '/ja/faq' },
+          {
+            text: '法的情報',
+            items: [
+              { text: '利用規約', link: '/ja/terms' },
+              { text: 'プライバシーポリシー', link: '/ja/privacy' },
+            ],
+          },
+          { text: 'フィードバック', link: '/ja/feedback' },
+        ],
+
+        sidebar: {
+          '/ja/guide/': [
+            {
+              text: '使い方ガイド',
+              items: [
+                { text: '概要', link: '/ja/guide/' },
+                { text: 'インストール', link: '/ja/guide/install' },
+                { text: '基本操作', link: '/ja/guide/basic-usage' },
+                { text: '便利な機能', link: '/ja/guide/advanced' },
+              ],
+            },
+          ],
+        },
+
+        editLink: {
+          pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/ja/:path',
+          text: 'GitHubで編集',
+        },
+
+        lastUpdated: {
+          text: '最終更新',
+        },
+
+        outline: {
+          label: '目次',
+          level: [2, 3],
+        },
+
+        docFooter: {
+          prev: '前のページ',
+          next: '次のページ',
+        },
+
+        darkModeSwitchLabel: 'ダークモード',
+        sidebarMenuLabel: 'メニュー',
+        returnToTopLabel: 'トップに戻る',
+        langMenuLabel: '言語',
+      },
+    },
+
+    ko: {
+      label: '한국어',
+      lang: 'ko-KR',
+      dir: 'ltr',
+      title: 'ButtSnap - 앱 가이드 & 커뮤니티',
+      description: 'ButtSnap 앱 사용 가이드, 자주 묻는 질문, 이용약관, 개인정보 처리방침',
+
+      themeConfig: {
+        nav: [
+          { text: '홈', link: '/ko/' },
+          { text: '가이드', link: '/ko/guide/' },
+          { text: 'FAQ', link: '/ko/faq' },
+          {
+            text: '법적 정보',
+            items: [
+              { text: '이용약관', link: '/ko/terms' },
+              { text: '개인정보 처리방침', link: '/ko/privacy' },
+            ],
+          },
+          { text: '피드백', link: '/ko/feedback' },
+        ],
+
+        sidebar: {
+          '/ko/guide/': [
+            {
+              text: '사용 가이드',
+              items: [
+                { text: '개요', link: '/ko/guide/' },
+                { text: '설치하기', link: '/ko/guide/install' },
+                { text: '기본 사용법', link: '/ko/guide/basic-usage' },
+                { text: '고급 기능', link: '/ko/guide/advanced' },
+              ],
+            },
+          ],
+        },
+
+        editLink: {
+          pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/ko/:path',
+          text: 'GitHub에서 편집',
+        },
+
+        lastUpdated: {
+          text: '마지막 업데이트',
+        },
+
+        outline: {
+          label: '목차',
+          level: [2, 3],
+        },
+
+        docFooter: {
+          prev: '이전 페이지',
+          next: '다음 페이지',
+        },
+
+        darkModeSwitchLabel: '다크 모드',
+        sidebarMenuLabel: '메뉴',
+        returnToTopLabel: '맨 위로',
+        langMenuLabel: '언어',
+      },
+    },
   },
 
   // Shared theme config
@@ -167,6 +291,57 @@ export default defineConfig({
                   selectText: '选择',
                   navigateText: '切换',
                   closeText: '关闭',
+                },
+              },
+            },
+          },
+          en: {
+            translations: {
+              button: {
+                buttonText: 'Search',
+                buttonAriaLabel: 'Search documentation',
+              },
+              modal: {
+                noResultsText: 'No results found',
+                resetButtonTitle: 'Clear search',
+                footer: {
+                  selectText: 'Select',
+                  navigateText: 'Navigate',
+                  closeText: 'Close',
+                },
+              },
+            },
+          },
+          ja: {
+            translations: {
+              button: {
+                buttonText: '検索',
+                buttonAriaLabel: 'ドキュメントを検索',
+              },
+              modal: {
+                noResultsText: '結果が見つかりません',
+                resetButtonTitle: '検索をクリア',
+                footer: {
+                  selectText: '選択',
+                  navigateText: '移動',
+                  closeText: '閉じる',
+                },
+              },
+            },
+          },
+          ko: {
+            translations: {
+              button: {
+                buttonText: '검색',
+                buttonAriaLabel: '문서 검색',
+              },
+              modal: {
+                noResultsText: '검색 결과 없음',
+                resetButtonTitle: '검색 초기화',
+                footer: {
+                  selectText: '선택',
+                  navigateText: '이동',
+                  closeText: '닫기',
                 },
               },
             },
