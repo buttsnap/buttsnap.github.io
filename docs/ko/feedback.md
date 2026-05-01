@@ -4,14 +4,25 @@ ButtSnap 커뮤니티의 일원이 되어 주셔서 감사합니다! 기능 아�
 
 ## 피드백 제출하기
 
+### 📧 이메일 (권장)
+
+계정 등록이 전혀 필요하지 않습니다. 이메일만 보내 주시면 됩니다.
+
 <div class="feedback-links">
   <a class="feedback-card" href="mailto:buttsnap@unoiou.com">
-    <h3>📧 이메일 보내기（권장）</h3>
-    <p>계정 등록이 전혀 필요하지 않습니다. buttsnap@unoiou.com으로 직접 이메일을 보내주시면 최대한 빨리 답변 드리겠습니다. 가장 빠른 연락 방법입니다.</p>
+    <h3>📧 이메일 보내기</h3>
+    <p>buttsnap@unoiou.com — 가장 빠른 연락 방법입니다. 질문, 아이디어, 문제 신고 등 어떤 내용이든 편하게 보내 주세요.</p>
   </a>
+</div>
+
+### 🐙 GitHub Issues
+
+GitHub 계정이 필요합니다. 버그 신고, 기능 제안, 다른 사용자의 피드백을 확인할 수 있습니다.
+
+<div class="feedback-links">
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 버그 신고하기</h3>
-    <p>스티커가 제대로 나오지 않나요? 뭔가 이상하게 작동하나요? 알려주시면 최대한 빨리 수정하겠습니다. (GitHub 계정 필요)</p>
+    <p>스티커가 제대로 나오지 않나요? 뭔가 이상하게 작동하나요? 알려주시면 최대한 빨리 수정하겠습니다.</p>
   </a>
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 기능 제안하기</h3>

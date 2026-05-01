@@ -4,14 +4,25 @@ Thank you for being part of the ButtSnap community! Whether you have a feature i
 
 ## Submit Feedback
 
+### 📧 Email (Recommended)
+
+No account needed — just send us an email and we'll get back to you.
+
 <div class="feedback-links">
   <a class="feedback-card" href="mailto:buttsnap@unoiou.com">
-    <h3>📧 Send Us an Email (Recommended)</h3>
-    <p>No account registration needed — just send an email to buttsnap@unoiou.com and we'll get back to you. This is the fastest way to reach us.</p>
+    <h3>📧 Send Us an Email</h3>
+    <p>buttsnap@unoiou.com — the fastest way to reach us. Great for any questions, ideas, or issues.</p>
   </a>
+</div>
+
+### 🐙 GitHub Issues
+
+Requires a GitHub account. Submit bugs, suggest features, or browse what others have shared.
+
+<div class="feedback-links">
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 Report a Bug</h3>
-    <p>Sticker not coming out right? Something acting strange? Let us know and we'll fix it ASAP. (Requires a GitHub account)</p>
+    <p>Sticker not coming out right? Something acting strange? Let us know and we'll fix it ASAP.</p>
   </a>
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 Feature Request</h3>

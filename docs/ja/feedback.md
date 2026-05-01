@@ -4,14 +4,25 @@ ButtSnapコミュニティに参加いただきありがとうございます！
 
 ## フィードバックを送る
 
+### 📧 メール（推奨）
+
+アカウント登録は一切不要です。メールを送るだけでご連絡いただけます。
+
 <div class="feedback-links">
   <a class="feedback-card" href="mailto:buttsnap@unoiou.com">
-    <h3>📧 メールを送る（推奨）</h3>
-    <p>アカウント登録は一切不要です。buttsnap@unoiou.com まで直接メールをお送りください。できるだけ早くご返信します。これが最も簡単な連絡方法です。</p>
+    <h3>📧 メールを送る</h3>
+    <p>buttsnap@unoiou.com — 最も簡単な連絡方法です。質問・アイデア・不具合報告など、どんな内容でもお気軽にどうぞ。</p>
   </a>
+</div>
+
+### 🐙 GitHub Issues
+
+GitHubアカウントが必要です。バグ報告、機能提案、他のユーザーのフィードバック閲覧ができます。
+
+<div class="feedback-links">
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 バグを報告</h3>
-    <p>ステッカーがうまく作れない？何か変な動きをしている？お知らせいただければ、できるだけ早く修正します。（GitHubアカウントが必要です）</p>
+    <p>ステッカーがうまく作れない？何か変な動きをしている？お知らせいただければ、できるだけ早く修正します。</p>
   </a>
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 機能リクエスト</h3>

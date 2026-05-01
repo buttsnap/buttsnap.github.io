@@ -4,14 +4,25 @@
 
 ## 提交反馈
 
+### 📧 邮件联系（推荐）
+
+无需注册任何账号，直接发送邮件即可，我们会尽快回复。
+
 <div class="feedback-links">
   <a class="feedback-card" href="mailto:buttsnap@unoiou.com">
-    <h3>📧 发送邮件（推荐）</h3>
-    <p>无需注册任何账号，直接发送邮件到 buttsnap@unoiou.com，我们会尽快回复你。这是最直接的联系方式。</p>
+    <h3>📧 发送邮件</h3>
+    <p>buttsnap@unoiou.com — 最直接的联系方式，适合各类问题、建议和想法。</p>
   </a>
+</div>
+
+### 🐙 GitHub Issues
+
+以下方式需要 GitHub 账号。你可以提交 Bug、建议新功能，或查看其他用户的反馈。
+
+<div class="feedback-links">
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 报告 Bug</h3>
-    <p>贴纸效果异常？App 闪退？界面错乱？告诉我们，我们会尽快修复。（需要 GitHub 账号）</p>
+    <p>贴纸效果异常？App 闪退？界面错乱？告诉我们，我们会尽快修复。</p>
   </a>
   <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 功能建议</h3>
