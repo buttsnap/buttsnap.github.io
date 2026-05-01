@@ -1,0 +1,16 @@
+{
+  "name": "buttsnap-docs",
+  "version": "1.0.0",
+  "description": "ButtSnap App Documentation & Community Site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.0",
+    "vue": "^3.5.0"
+  }
+}
