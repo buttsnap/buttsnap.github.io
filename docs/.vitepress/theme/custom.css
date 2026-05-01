@@ -5,12 +5,33 @@
   --vp-c-brand-soft: rgba(0, 122, 255, 0.14);
 }
 
-/* Home page hero */
+/* Home page hero text gradient */
 .VPHero .name {
   background: linear-gradient(120deg, #007aff, #5856d6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Hero buttons — match brand button height to badge, badge border-radius to brand */
+.VPHero .VPButton.brand {
+  height: 44px;
+  line-height: 44px;
+  border-radius: 10px;
+}
+
+.VPHero .VPButton.alt {
+  font-size: 0;
+  background: url(https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83) no-repeat center / contain;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 0 !important;
+  width: 132px;
+  height: 44px;
+}
+
+html.dark .VPHero .VPButton.alt {
+  background-image: url(https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83);
 }
 
 /* Feedback page links */

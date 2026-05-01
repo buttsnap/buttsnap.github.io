@@ -8,7 +8,7 @@ ButtSnap is available on the App Store. Open the App Store and search for "ButtS
 
 ## System Requirements
 
-- iOS 16.0 or later
+- iOS 26.0 or later
 - Compatible with iPhone and iPad
 
 ## First Launch
@@ -29,3 +29,5 @@ That's it! ButtSnap doesn't need an account, your email, or anything else. All p
 ### 3. Start Collecting
 
 You're all set! Point your camera at something interesting and take your first snap. The app will automatically create your first sticker — it's that simple.
+
+If you later want to manage your subscription or export data, you can do so from the Profile page within the app.

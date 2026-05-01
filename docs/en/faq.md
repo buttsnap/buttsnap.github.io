@@ -1,80 +1,89 @@
 # FAQ
 
-## Stickers & Snapping
+## Sticker Making
 
-### Q: What makes a good sticker photo?
+### Q: What kinds of photos make the best stickers?
 
-A: Simple, distinct subjects work best. A single object with a relatively clean background — like a cup on a table, a keychain in your hand, or a flower against the sky. Good lighting makes a big difference. Avoid cluttered scenes with lots of overlapping objects, as the subject isolation works best when there's one clear main subject.
+A: Photos with a clear subject that stands out from the background work best. A few tips:
+- When shooting small objects on a table, a cleaner background gives more accurate results
+- Sufficient lighting helps produce more refined sticker edges
+- Try to keep the subject fully in frame — don't let it get cut off
+- Bright, colorful subjects look especially great
 
-### Q: My sticker didn't come out clean — the edges look messy. How can I improve?
+### Q: Why is the subject recognition sometimes not accurate enough?
 
-A: Try these tips:
-- Make sure your subject stands out from the background (contrasting colors help)
-- Use natural light or ensure the scene is well-lit
-- Hold your phone steady while snapping
-- Try a different angle — sometimes a slight change in position makes a big difference
-- Avoid busy or patterned backgrounds directly behind your subject
+A: The on-device processing is smart, but it can struggle in certain situations:
+- The subject and background colors are too similar (e.g., a white cup on a white table)
+- Lighting is too dim, making the subject outline unclear
+- There are multiple overlapping objects in the frame
 
-### Q: Can I re-process or re-crop a sticker after it's created?
+If this happens, try a different angle or adjust the lighting and take another shot. We're continually improving the recognition too!
 
-A: The original photo is always preserved. If you're not happy with a sticker, you can delete it and try snapping the subject again from a better angle. The app works best when you frame your subject clearly from the start.
+### Q: Can I pick photos from my album to make stickers?
 
-### Q: How many stickers can I create per day?
+A: Of course! Switch to album mode in the sticker creation screen and select existing photos to generate stickers. Old travel photos, pet pictures — they can all become stickers.
 
-A: The free tier includes a limited number of daily captures — perfect for casual collectors. ButtSnap Pro unlocks unlimited daily snapping so you can collect to your heart's content.
+### Q: Where are stickers saved?
 
-## Timeline & Organization
+A: Stickers are saved inside the App, organized by date in the timeline. You can also export individual stickers or entire canvases to your system photo library anytime.
 
-### Q: How are stickers organized?
+### Q: What format and quality are the stickers?
 
-A: Stickers are automatically grouped by the date you created them. Open the timeline and you'll see each day as a section with all its stickers displayed together — like a sticker diary. You can scroll through days to relive your discoveries.
+A: Stickers are saved as high-resolution images with transparent backgrounds, making them easy to use anywhere. Stickers exported to your photo library retain the white border and glow effect, looking just like a real physical sticker.
 
-### Q: Can I change the date of a sticker?
+## Organization & Management
 
-A: Stickers are fixed to the date they were created. This keeps your timeline honest — it's a genuine record of when you found each little treasure.
+### Q: How do I organize stickers in batches?
 
-### Q: What's the difference between the timeline and collections?
+A: Use the collections feature! Create collections around different themes and sort your stickers into categories. When you want to browse stickers of a particular theme, just go straight to the corresponding collection — no need to dig through the timeline.
 
-A: The timeline is automatic — it shows every sticker you've ever created, sorted by date. Collections are hand-curated — you pick which stickers go into each themed group. Think of the timeline as your diary and collections as your curated photo albums.
+### Q: Will deleting a collection affect my stickers?
 
-## Privacy & Data
+A: No. Deleting a collection only removes that grouping. The stickers in the collection remain in your timeline and will not be lost.
 
-### Q: Do my photos get uploaded anywhere?
+### Q: How do I migrate data when switching to a new phone?
 
-A: No. All subject recognition, background removal, and sticker generation happens entirely on your device. Your photos never leave your phone. There's no cloud processing, no server uploads, nothing.
+A: On your old phone, go to ButtSnap "Profile → Data" and export your data package. Then transfer it to your new phone via AirDrop, the Files app, or a computer, and import it in ButtSnap on the new device. All your stickers and collection structures will be fully migrated.
 
-### Q: Do I need an account?
+## Privacy & Security
 
-A: Nope! ButtSnap doesn't require an account or sign-in. Download, grant camera permission, and start collecting. Everything stays local to your device.
+### Q: Are my photos uploaded to a server?
+
+A: No. All of ButtSnap's subject recognition and sticker generation happens on your device. Photos are never uploaded to any server or sent to anyone. Every photo you take stays only on your phone.
+
+### Q: Do I need to create an account?
+
+A: No. ButtSnap has no account system — just open and use. All your data is stored on your device.
 
 ### Q: Will I lose my stickers if I delete the app?
 
-A: Yes — stickers live on your device, so deleting the app removes them. We recommend using the Export feature (Profile → Settings → Export Data) to save a backup before deleting the app or switching devices.
+A: Yes. Sticker data is stored inside the App, not in your system photo library. So before deleting the app, remember to export a data backup from "Profile → Data" first. Sticker images you've already exported to your photo library are unaffected.
 
-### Q: Does the app track me or show ads?
+## Pro Subscription
 
-A: No tracking, no ads. We don't collect usage data, analytics, or personal information. The app makes money through ButtSnap Pro subscriptions — that's it.
+### Q: What are the limitations of the free version?
 
-## ButtSnap Pro
+A: The free version has a daily sticker creation allowance, which is perfectly sufficient for casual daily recording. If you snap more frequently or want to unlock more premium background styles, consider subscribing to Pro.
 
-### Q: What do I get with Pro?
+### Q: How do I subscribe to and cancel Pro?
 
-A: ButtSnap Pro gives you unlimited daily captures and access to premium canvas backgrounds. The free tier is great for casual collecting; Pro is for enthusiasts who want to snap and create without limits.
+A: You can manage your subscription from the "Profile" page in the app. The subscription is processed through your Apple ID, with billing handled by Apple. To cancel, go to iPhone "Settings → Apple ID → Subscriptions" — you can cancel anytime.
 
-### Q: How does the subscription work?
+### Q: Will my stickers still be there after my subscription expires?
 
-A: ButtSnap Pro is an auto-renewing subscription managed through your Apple ID. You can subscribe, manage, or cancel anytime in your device's Settings → Apple ID → Subscriptions.
+A: Absolutely! Subscription expiration does not affect stickers and collections you've already created. Only the free-tier daily allowance will resume.
 
-### Q: Can I try Pro before subscribing?
+## Other
 
-A: A free trial may be available — check the subscription screen in the app for current offers.
+### Q: What does the name ButtSnap mean?
 
-## General
+A: "Butt" comes from the corgi's round butt — the app's core mascot and brand symbol. The app icon is a corgi butt. Try double-tapping the app icon on the Profile page and you'll discover a delightful little animation 🐾
 
-### Q: Why is it called ButtSnap?
+### Q: How do I submit feedback or suggestions?
 
-A: The name comes from our Corgi mascot! The Corgi butt is a beloved internet icon, and it inspired the app's playful personality. Keep an eye out for the hidden Corgi surprise in the app — try double-tapping the app icon and giving your phone a gentle shake.
+A: Very welcome! You can:
+- Submit issues or suggestions on [GitHub Issues](https://github.com/buttsnap/buttsnap.github.io/issues)
+- Visit the [Feedback page](/en/feedback) for more ways to reach us
+- Send an email to buttsnap@unoiou.com
 
-### Q: How do I submit feedback or report a bug?
-
-A: We'd love to hear from you! Submit feedback through [GitHub Issues](https://github.com/buttsnap/buttsnap.github.io/issues) or email us. See the [Feedback page](/en/feedback) for details.
+We're a small team, and we read every piece of feedback carefully.

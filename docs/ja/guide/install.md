@@ -8,7 +8,7 @@ ButtSnapはApp Storeから入手できます。App Storeを開いて「ButtSnap�
 
 ## システム要件
 
-- iOS 16.0以降
+- iOS 26.0以降
 - iPhoneおよびiPadに対応
 
 ## 初回起動

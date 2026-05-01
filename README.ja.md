@@ -38,7 +38,7 @@ ButtSnap は、日常の一瞬を美しいステッカーに変えるアプリ�
 
 <a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Storeからダウンロード" height="56"></a>
 
-- iOS 16.0 以降対応
+- iOS 26.0 以降対応
 - iPhone および iPad 対応
 
 ## 💬 フィードバック & サポート

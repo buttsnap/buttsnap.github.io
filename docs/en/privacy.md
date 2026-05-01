@@ -4,77 +4,113 @@
 
 ## Overview
 
-ButtSnap is built with privacy at its core. This Privacy Policy explains how we handle your information — which is simple: we don't collect it. All sticker generation happens on-device, and your photos never leave your phone.
+We take privacy seriously. ButtSnap's core philosophy is simple: your photos belong to you and only you. This Privacy Policy explains how ButtSnap ("we", "us", or "the App") collects, uses, and protects your information.
 
 ## 1. Information We Collect
 
 ### What We DON'T Collect
 
-ButtSnap does **not** collect:
+ButtSnap is a completely on-device app. We **do not** collect:
 
 - Personal identification information (name, email, phone number, etc.)
-- Your photos or stickers
+- Account information (the App has no account system)
+- Your photos (photos are never uploaded to any server)
+- Your generated stickers
 - Location data
 - Contacts
-- Browsing history
+- Browsing history or usage habits
 - Device identifiers
-- Usage analytics or behavior data
+- Any form of user behavior data
 
-### Automatically Collected Information
+### Technical Information That May Be Collected
 
-We do not collect any data automatically. There is no analytics framework, no crash reporter that phones home, and no telemetry of any kind.
+To improve app stability, we may receive fully anonymous technical data through Apple's crash reporting service:
+
+- App crash logs (via Apple system services, not collected by us directly)
+
+Such data is completely anonymous, cannot be linked to any individual user, and is used solely for diagnosing and fixing technical issues.
 
 ## 2. How We Use Information
 
-Since we don't collect any information, there is nothing to use. Simple as that.
+Since we do not collect user data, there is no use of personal information for commercial purposes, advertising, user profiling, or any other purpose.
+
+Anonymous crash logs (if any) are used only to fix bugs and improve stability.
 
 ## 3. Photos & Stickers
 
-- **Everything stays on your device**: Photos you take are processed entirely on-device to generate stickers. No photo is ever uploaded to any server, cloud service, or third party.
-- **No cloud processing**: Subject recognition, background removal, and sticker rendering all happen locally on your iPhone or iPad. Your photos are never sent anywhere for processing.
-- **No account required**: There is no user account system. You don't sign up, log in, or provide any personal details to use the app.
-- **You control sharing**: Stickers are only shared when you explicitly choose to share them. The app never auto-shares anything.
-- **You own your data**: Use the built-in Export feature to save a complete copy of your sticker collection anytime. Full data portability is yours.
+This is the most important part:
 
-## 4. Third-Party Services
+- Photos you take and stickers you generate are **stored entirely on your device**
+- All subject recognition and sticker generation **happens entirely on-device** — your photos never leave your phone
+- We have **no** backend servers that receive or store any of your photos
+- We have no technical ability to access your photos or stickers
+- Collage works you create on the canvas are also stored entirely on your device
 
-The App uses only Apple's built-in system services:
+## 4. Data Export & Migration
 
-- **Camera**: For capturing photos (you grant permission on first use)
-- **Photo Library**: For saving stickers (you grant permission on first use)
+We support full data ownership:
 
-These are standard iOS system services governed by Apple's Privacy Policy. No third-party SDKs, analytics tools, ad networks, or tracking frameworks are included in the app.
+- You can export all your stickers and collection data anytime from the Profile page
+- Exported data is in a universal format and will not be locked into our app
+- The import feature supports fully restoring all your data on a new device
+- Your data is always under your control — export, back up, migrate, completely free
 
-## 5. ButtSnap Pro Subscription
+## 5. Pro Subscription & Payments
 
-ButtSnap Pro subscriptions are handled entirely by Apple through your Apple ID. We do not receive, store, or process your payment information. All billing, renewal, and cancellation are managed through Apple's App Store — refer to Apple's Privacy Policy for details on how they handle subscription data.
+Pro subscriptions are processed through Apple's App Store In-App Purchase system:
 
-## 6. Data Security
+- We **do not** receive your payment information (credit card numbers, bank details, etc.)
+- All payments are securely handled by Apple — we have no access
+- Subscription management is entirely controlled by your Apple ID
+- We **do not** track your subscription behavior for advertising or analytics
 
-Since your photos and stickers are stored entirely on your local device, data security depends on:
+## 6. Third-Party Services
 
-- Your device's built-in security mechanisms
-- Your device passcode or biometric protection (Face ID / Touch ID)
+The App uses only the following system-level services:
+
+- **Apple Camera & Photo Library**: For capturing and saving sticker images
+- **Apple In-App Purchase**: For processing Pro subscriptions (if you choose to subscribe)
+- **Apple Crash Reporting**: Optional system-level crash diagnostic service
+
+These services are governed by Apple's Privacy Policy. We recommend reading [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for more details.
+
+We do not integrate any third-party advertising SDKs, analytics SDKs, or social SDKs. This App has no ads, no trackers, and no data collection.
+
+## 7. No Account · No Tracking · No Ads
+
+ButtSnap's privacy philosophy in one sentence:
+
+- **No Account**: No registration needed, no login required — open and use immediately
+- **No Tracking**: We do not record your usage behavior or build user profiles
+- **No Ads**: We do not display any form of advertising or integrate any ad SDKs
+
+## 8. Children's Privacy
+
+The App is not directed at children under 13. Since we do not require or collect any personal information from any user, we do not knowingly or unknowingly collect information from children.
+
+## 9. Data Security
+
+Since all your data is stored entirely on your local device, data security depends on:
+
+- Your device's system security mechanisms (encrypted storage, Secure Enclave, etc.)
+- Your device passcode or biometric protection
 
 We recommend keeping your iOS system updated and using device passcode protection.
 
-## 7. Children's Privacy
+## 10. Updates to This Policy
 
-The App is not directed at children under 13. We do not knowingly collect personal information from children — or from anyone, for that matter.
+We may update this Privacy Policy from time to time. Updated policies will be posted on this website. Material changes will be communicated within the App as appropriate.
 
-## 8. Updates to This Policy
-
-We may update this Privacy Policy from time to time. Updated policies will be posted in the App or on this website. Material changes will be communicated through the App's update notes.
-
-## 9. Your Rights
+## 11. Your Rights
 
 Under applicable data protection laws, you have the following rights:
 
-- **Right of Access**: Your data is on your device — you already have full access to it
-- **Right of Portability**: Use the Export feature to get a complete, portable copy of your collection
-- **Right of Deletion**: Delete the app to remove all local data. Stickers you've manually saved to your Photos library remain there as regular images
+- **Data Ownership**: Your sticker data belongs entirely to you and is stored on your device
+- **Data Portability**: Export all your data anytime through the data export feature
+- **Right of Deletion**: Delete stickers within the App at any time, or delete the App to remove all local data
+- **Right to Be Informed**: This Privacy Policy details how we handle your data
 
-## 10. Contact Us
+## 12. Contact Us
 
 If you have questions about this Privacy Policy, please contact us via:
 

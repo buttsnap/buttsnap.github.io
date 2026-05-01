@@ -23,10 +23,16 @@ features:
   - icon: 📅
     title: Your Daily Sticker Diary
     details: All your stickers are automatically organized by date. Scroll through your timeline and see what you discovered each day — like flipping through a visual journal of tiny joys.
-  - icon: 📚
+  - icon: 📦
     title: Themed Collections
     details: Group your stickers into collections like "City Walk", "Coffee Cups", or "Cute Cars". A fun, satisfying way to curate your finds and tell stories through stickers.
   - icon: 🎨
     title: Canvas & Collage
     details: Combine your favorite stickers into creative collages and sticker walls. Arrange, layer, and play — then export and share your creations with friends.
+  - icon: 🔒
+    title: 100% On-Device · No Account Needed
+    details: All subject recognition and sticker generation happens on-device. Photos are never uploaded to any server. No account needed — just open and go.
+  - icon: 🐾
+    title: A Corgi Butt Surprise
+    details: The app's name and icon hide a corgi butt easter egg — try double-tapping the app icon on the Profile page and see what happens.
 ---

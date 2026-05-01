@@ -26,7 +26,7 @@ Thank you for being part of the ButtSnap community! Whether you have a feature i
 When submitting a bug report, please include:
 
 - **iOS Version**: Find in Settings → General → About
-- **App Version**: Find in ButtSnap Settings
+- **App Version**: Find in ButtSnap Profile page
 - **What happened**: Describe what you were doing and what went wrong
 - **What you expected**: What should have happened instead
 - **Screenshots**: If relevant, attach a screenshot showing the issue — especially helpful for sticker quality problems
@@ -44,3 +44,5 @@ When proposing a feature, consider sharing:
 Besides GitHub Issues, you can also reach us via email:
 
 📧 [buttsnap@unoiou.com](mailto:buttsnap@unoiou.com)
+
+We're a small team, and we read every piece of feedback carefully. Your idea might just become ButtSnap's next big feature.

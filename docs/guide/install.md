@@ -8,7 +8,7 @@ ButtSnap 在 App Store 上架。打开 App Store 搜索「ButtSnap」或点击�
 
 ## 系统要求
 
-- iOS 16.0 或更高版本
+- iOS 26.0 或更高版本
 - 兼容 iPhone 和 iPad
 
 ## 首次启动

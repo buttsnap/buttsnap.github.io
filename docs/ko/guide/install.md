@@ -8,7 +8,7 @@ ButtSnap은 App Store에서 이용할 수 있습니다. App Store를 열고 "But
 
 ## 시스템 요구사항
 
-- iOS 16.0 이상
+- iOS 26.0 이상
 - iPhone 및 iPad 호환
 
 ## 첫 실행

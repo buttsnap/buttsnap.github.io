@@ -38,7 +38,7 @@ No accounts. No uploads. Everything happens right on your phone.
 
 <a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="56"></a>
 
-- Requires iOS 16.0 or later
+- Requires iOS 26.0 or later
 - Works on iPhone and iPad
 
 ## 💬 Feedback & Support

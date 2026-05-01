@@ -49,14 +49,14 @@ Canvas is your creative playground where stickers come together.
 
 You own your data. Export your entire sticker collection anytime:
 
-1. Go to Profile → Settings
+1. Go to Profile → Data
 2. Tap "Export Data"
 3. Choose a save location — your exported collection includes all stickers and their metadata
 4. Use this to back up, migrate to a new device, or just keep a safe copy
 
 ### Import Your Collection
 
-1. Go to Profile → Settings
+1. Go to Profile → Data
 2. Tap "Import Data"
 3. Select a previously exported backup file
 4. Your stickers and collections are restored
@@ -66,3 +66,12 @@ You own your data. Export your entire sticker collection anytime:
 - Stickers are stored on your device. ButtSnap doesn't upload anything to the cloud
 - If you delete the app, your stickers are removed. We recommend exporting a backup if you plan to reinstall
 - The app itself uses very little storage — only your sticker images take up space
+
+## Pro Subscription
+
+ButtSnap's core features are free to use, with a daily sticker creation allowance. If you want:
+
+- **Unlimited stickers**: Remove the daily capture and sticker generation limit
+- **More premium backgrounds**: Unlock Pro-exclusive sticker background styles
+
+You can subscribe to ButtSnap Pro. The subscription is managed through your Apple ID and can be canceled anytime in your device's system settings.
