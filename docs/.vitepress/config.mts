@@ -6,10 +6,10 @@ export default defineConfig({
   description: 'ButtSnap App Documentation & Community',
 
   // GitHub Pages needs base if not using custom domain
-  base: '/ButtSnap/',
+  base: '/',
 
   head: [
-    ['link', { rel: 'icon', href: '/ButtSnap/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
 
   // Clean URLs without .html extension
