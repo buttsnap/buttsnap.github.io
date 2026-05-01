@@ -43,4 +43,4 @@ When proposing a feature, consider sharing:
 
 Besides GitHub Issues, you can also reach us via email:
 
-📧 [cmsax@live.com](mailto:cmsax@live.com)
+📧 [buttsnap@unoiou.com](mailto:buttsnap@unoiou.com)

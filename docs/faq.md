@@ -84,6 +84,6 @@ A: 「Butt」来自柯基犬的圆润屁屁——这是 App 最核心的彩蛋�
 A: 非常欢迎！你可以：
 - 在 [GitHub Issues](https://github.com/buttsnap/buttsnap.github.io/issues) 提交问题或建议
 - 访问[反馈页面](/feedback)了解更多提交方式
-- 发送邮件到 cmsax@live.com
+- 发送邮件到 buttsnap@unoiou.com
 
 我们是一个小团队，每一条反馈都会认真看。

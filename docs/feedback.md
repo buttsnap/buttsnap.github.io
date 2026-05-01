@@ -45,6 +45,6 @@
 
 除了 GitHub Issues，你也可以通过邮件和我们聊聊：
 
-📧 [cmsax@live.com](mailto:cmsax@live.com)
+📧 [buttsnap@unoiou.com](mailto:buttsnap@unoiou.com)
 
 我们是一个小团队，每一条反馈都会认真看。你的想法可能会成为 ButtSnap 下一个版本的新功能哦。

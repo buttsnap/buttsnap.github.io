@@ -115,4 +115,4 @@ Pro 订阅通过 Apple App Store 内购系统处理：
 如对本隐私政策有任何疑问，请通过以下方式联系：
 
 - GitHub Issues: [https://github.com/buttsnap/buttsnap.github.io/issues](https://github.com/buttsnap/buttsnap.github.io/issues)
-- 邮箱: cmsax@live.com
+- 邮箱: buttsnap@unoiou.com

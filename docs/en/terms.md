@@ -74,4 +74,4 @@ These terms are governed by the laws of the People's Republic of China. Disputes
 If you have any questions, please contact us via:
 
 - GitHub Issues: [https://github.com/buttsnap/buttsnap.github.io/issues](https://github.com/buttsnap/buttsnap.github.io/issues)
-- Email: cmsax@live.com
+- Email: buttsnap@unoiou.com
