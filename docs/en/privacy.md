@@ -78,5 +78,5 @@ Under applicable data protection laws, you have the following rights:
 
 If you have questions about this Privacy Policy, please contact us via:
 
-- GitHub Issues: [https://github.com/cmsax/ButtSnap/issues](https://github.com/cmsax/ButtSnap/issues)
+- GitHub Issues: [https://github.com/buttsnap/buttsnap.github.io/issues](https://github.com/buttsnap/buttsnap.github.io/issues)
 - Email: cmsax@live.com

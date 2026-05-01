@@ -77,4 +77,4 @@ A: The name comes from our Corgi mascot! The Corgi butt is a beloved internet ic
 
 ### Q: How do I submit feedback or report a bug?
 
-A: We'd love to hear from you! Submit feedback through [GitHub Issues](https://github.com/cmsax/ButtSnap/issues) or email us. See the [Feedback page](/en/feedback) for details.
+A: We'd love to hear from you! Submit feedback through [GitHub Issues](https://github.com/buttsnap/buttsnap.github.io/issues) or email us. See the [Feedback page](/en/feedback) for details.

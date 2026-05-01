@@ -54,7 +54,7 @@ export default defineConfig({
         },
 
         editLink: {
-          pattern: 'https://github.com/cmsax/ButtSnap/edit/main/docs/:path',
+          pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页',
         },
 
@@ -116,7 +116,7 @@ export default defineConfig({
         },
 
         editLink: {
-          pattern: 'https://github.com/cmsax/ButtSnap/edit/main/docs/en/:path',
+          pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/en/:path',
           text: 'Edit this page on GitHub',
         },
 
@@ -147,7 +147,7 @@ export default defineConfig({
     logo: '/app-icon.png',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/cmsax/ButtSnap' },
+      { icon: 'github', link: 'https://github.com/buttsnap/buttsnap.github.io' },
     ],
 
     search: {

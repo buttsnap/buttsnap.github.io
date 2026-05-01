@@ -5,15 +5,15 @@ Thank you for being part of the ButtSnap community! Whether you have a feature i
 ## Submit Feedback
 
 <div class="feedback-links">
-  <a class="feedback-card" href="https://github.com/cmsax/ButtSnap/issues/new?template=bug_report.md" target="_blank" rel="noopener">
+  <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 Report a Bug</h3>
     <p>Sticker not coming out right? Something acting strange? Let us know and we'll fix it ASAP.</p>
   </a>
-  <a class="feedback-card" href="https://github.com/cmsax/ButtSnap/issues/new?template=feature_request.md" target="_blank" rel="noopener">
+  <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 Feature Request</h3>
     <p>Have an idea to make sticker collecting even better? We'd love to hear your suggestions.</p>
   </a>
-  <a class="feedback-card" href="https://github.com/cmsax/ButtSnap/issues" target="_blank" rel="noopener">
+  <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues" target="_blank" rel="noopener">
     <h3>📋 View All Feedback</h3>
     <p>Browse existing discussions, vote on ideas you like, and see what others are saying.</p>
   </a>

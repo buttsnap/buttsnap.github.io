@@ -5,15 +5,15 @@
 ## 提交反馈
 
 <div class="feedback-links">
-  <a class="feedback-card" href="https://github.com/cmsax/ButtSnap/issues/new?template=bug_report.md" target="_blank" rel="noopener">
+  <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=bug_report.md" target="_blank" rel="noopener">
     <h3>🐛 报告 Bug</h3>
     <p>贴纸效果异常？App 闪退？界面错乱？告诉我们，我们会尽快修复。</p>
   </a>
-  <a class="feedback-card" href="https://github.com/cmsax/ButtSnap/issues/new?template=feature_request.md" target="_blank" rel="noopener">
+  <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues/new?template=feature_request.md" target="_blank" rel="noopener">
     <h3>💡 功能建议</h3>
     <p>想要贴纸动画更丰富？想要更多背景样式？任何天马行空的想法都欢迎分享。</p>
   </a>
-  <a class="feedback-card" href="https://github.com/cmsax/ButtSnap/issues" target="_blank" rel="noopener">
+  <a class="feedback-card" href="https://github.com/buttsnap/buttsnap.github.io/issues" target="_blank" rel="noopener">
     <h3>📋 查看所有反馈</h3>
     <p>看看其他小伙伴都提了什么，说不定你关心的功能已经有人在讨论了。</p>
   </a>
