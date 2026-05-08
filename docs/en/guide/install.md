@@ -4,7 +4,7 @@
 
 ButtSnap is available on the App Store. Open the App Store and search for "ButtSnap" or tap the link below to download.
 
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/buttsnap/id0000000000)
+[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/buttsnap/id6762453848)
 
 ## System Requirements
 

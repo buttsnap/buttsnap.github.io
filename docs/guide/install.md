@@ -4,7 +4,7 @@
 
 ButtSnap 在 App Store 上架。打开 App Store 搜索「ButtSnap」或点击下方链接下载。
 
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/buttsnap/id0000000000)
+[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/buttsnap/id6762453848)
 
 ## 系统要求
 

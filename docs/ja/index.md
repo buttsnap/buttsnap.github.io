@@ -11,7 +11,7 @@ hero:
       link: /ja/guide/
     - theme: alt
       text: ダウンロード
-      link: https://apps.apple.com/app/buttsnap/id0000000000
+      link: https://apps.apple.com/app/buttsnap/id6762453848
   image:
     src: /app-icon.png
     alt: ButtSnap

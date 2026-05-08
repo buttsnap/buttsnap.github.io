@@ -24,7 +24,7 @@ export default defineConfig({
   },
 
   transformPageData(pageData, ctx) {
-    const langParam = ctx.url.match(/[?&]lang=([^&]+)/)?.[1]
+    const langParam = ctx.url?.match(/[?&]lang=([^&]+)/)?.[1]
     if (langParam) {
       const langMap: Record<string, string> = {
         'zh-Hans': 'zh-CN',
