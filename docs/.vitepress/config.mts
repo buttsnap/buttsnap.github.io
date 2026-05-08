@@ -15,6 +15,31 @@ export default defineConfig({
   // Clean URLs without .html extension
   cleanUrls: true,
 
+  // Language redirect: map iOS locale IDs to locale keys
+  // Falls back to English (en) for unsupported locales
+  rewrites: {
+    'en/:rest*': '/en/:rest*',
+    'ja/:rest*': '/ja/:rest*',
+    'ko/:rest*': '/ko/:rest*',
+  },
+
+  transformPageData(pageData, ctx) {
+    const langParam = ctx.url.match(/[?&]lang=([^&]+)/)?.[1]
+    if (langParam) {
+      const langMap: Record<string, string> = {
+        'zh-Hans': 'zh-CN',
+        'zh-CN': 'zh-CN',
+        'zh-TW': 'zh-CN',
+        'zh-Hant': 'zh-CN',
+        'ja': 'ja',
+        'ko': 'ko',
+        'en': 'en',
+      }
+      const targetLang = langMap[langParam] ?? 'en'
+      ctx.headers.location = targetLang === 'zh-CN' ? '/' : `/${targetLang}/`
+    }
+  },
+
   // i18n configuration
   locales: {
     root: {
