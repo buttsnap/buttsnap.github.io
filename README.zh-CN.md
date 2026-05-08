@@ -9,7 +9,7 @@
 <p align="center">拍下美好，收藏生活 🐾</p>
 
 <p align="center">
-  <a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="从 App Store 下载" height="48"></a>
+  <a href="https://apps.apple.com/app/buttsnap/id6762453848"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="从 App Store 下载" height="48"></a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ ButtSnap 把你的日常瞬间变成精美贴纸。街角的一朵小花、咖�
 
 ## 📱 下载 App
 
-<a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="从 App Store 下载" height="56"></a>
+<a href="https://apps.apple.com/app/buttsnap/id6762453848"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="从 App Store 下载" height="56"></a>
 
 - 需要 iOS 26.0 或更高版本
 - 适用于 iPhone 和 iPad

@@ -9,7 +9,7 @@
 <p align="center">일상의 작은 즐거움을 모아보세요 🐾</p>
 
 <p align="center">
-  <a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store에서 다운로드" height="48"></a>
+  <a href="https://apps.apple.com/app/buttsnap/id6762453848"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store에서 다운로드" height="48"></a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ ButtSnap은 일상의 순간을 아름다운 스티커로 바꿔주는 앱입니
 
 ## 📱 앱 다운로드
 
-<a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store에서 다운로드" height="56"></a>
+<a href="https://apps.apple.com/app/buttsnap/id6762453848"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store에서 다운로드" height="56"></a>
 
 - iOS 26.0 이상 필요
 - iPhone 및 iPad 지원

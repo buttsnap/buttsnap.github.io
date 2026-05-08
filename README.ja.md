@@ -9,7 +9,7 @@
 <p align="center">日々の小さな幸せを集めよう 🐾</p>
 
 <p align="center">
-  <a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Storeからダウンロード" height="48"></a>
+  <a href="https://apps.apple.com/app/buttsnap/id6762453848"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Storeからダウンロード" height="48"></a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ ButtSnap は、日常の一瞬を美しいステッカーに変えるアプリ�
 
 ## 📱 アプリを入手
 
-<a href="https://apps.apple.com/app/buttsnap/id0000000000"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Storeからダウンロード" height="56"></a>
+<a href="https://apps.apple.com/app/buttsnap/id6762453848"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Storeからダウンロード" height="56"></a>
 
 - iOS 26.0 以降対応
 - iPhone および iPad 対応
