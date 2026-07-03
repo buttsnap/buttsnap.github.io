@@ -4,7 +4,7 @@
 
 ButtSnap은 App Store에서 이용할 수 있습니다. App Store를 열고 "ButtSnap"을 검색하거나 아래 링크를 탭하여 다운로드하세요.
 
-[![App Store에서 다운로드](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/buttsnap/id6762453848)
+[![App Store에서 다운로드](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/id6762453848)
 
 ## 시스템 요구사항
 

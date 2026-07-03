@@ -1,16 +1,15 @@
 :root {
-  --vp-c-brand-1: #007aff;
-  --vp-c-brand-2: #3395ff;
-  --vp-c-brand-3: #0066d6;
-  --vp-c-brand-soft: rgba(0, 122, 255, 0.14);
+  --vp-c-brand-1: #f05f8d;
+  --vp-c-brand-2: #ff86a8;
+  --vp-c-brand-3: #d84f7c;
+  --vp-c-brand-soft: rgba(240, 95, 141, 0.14);
+  --buttsnap-ink: #1e2430;
 }
 
-/* Home page hero text gradient */
 .VPHero .name {
-  background: linear-gradient(120deg, #007aff, #5856d6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--vp-c-brand-1);
+  background: none;
+  -webkit-text-fill-color: currentColor;
 }
 
 /* Hero buttons — match brand button height to badge, badge border-radius to brand */
@@ -86,4 +85,324 @@ html.dark .VPHero .VPButton.alt {
 .VPHero .image-src {
   animation: corgi-butt-wiggle 5s ease-in-out infinite;
   animation-delay: 1s;
+}
+
+/* Home app showcase */
+.Layout:has(.VPContent.is-home) {
+  min-height: 100svh;
+  overflow: hidden;
+}
+
+.Layout:has(.VPContent.is-home) .VPFooter,
+.VPContent.is-home .vp-doc.container {
+  display: none;
+}
+
+.VPContent.is-home,
+.VPContent.is-home .VPHome {
+  height: calc(100svh - var(--vp-nav-height));
+  overflow: hidden;
+}
+
+.VPHome .VPHomeFeatures {
+  display: none;
+}
+
+.VPHero .container {
+  max-width: 1200px;
+  min-height: calc(100svh - var(--vp-nav-height));
+  padding-top: clamp(12px, 2.5svh, 28px);
+  padding-bottom: clamp(28px, 6svh, 58px);
+}
+
+.VPHero.has-image .container {
+  align-items: center;
+  gap: 64px;
+}
+
+.VPHero .main {
+  max-width: 510px;
+  transform: translateY(-3svh);
+}
+
+.VPHero .tagline {
+  max-width: 470px;
+  color: var(--vp-c-text-2);
+  font-size: 21px;
+  line-height: 1.65;
+}
+
+.VPHero .image {
+  flex: 1 1 520px;
+  min-width: 0;
+  margin: 0;
+}
+
+.VPHero .image-container {
+  width: 100%;
+  height: auto;
+  transform: none;
+}
+
+.VPHero .image-bg {
+  display: none;
+}
+
+.VPHero .heading {
+  max-width: 520px;
+}
+
+.VPHero .name {
+  font-size: 70px;
+  letter-spacing: 0;
+}
+
+.VPHero .text {
+  max-width: 520px;
+  color: var(--vp-c-text-1);
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 1.1;
+}
+
+.VPHero .actions {
+  margin-top: 30px;
+}
+
+.home-app-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 0;
+  color: var(--vp-c-text-1);
+  font-size: 15px;
+  font-weight: 720;
+}
+
+.home-app-badge img {
+  display: block;
+  width: 46px;
+  height: 46px;
+  border-radius: 25%;
+}
+
+.home-proof {
+  margin-top: 26px;
+}
+
+.home-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 18px;
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-highlights li {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 10px;
+  padding: 0;
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.home-highlight-icon {
+  flex: 0 0 auto;
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.home-trust-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.home-trust-line span {
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+  font-weight: 680;
+  line-height: 1;
+}
+
+.home-trust-line span + span::before {
+  margin-right: 8px;
+  color: var(--vp-c-text-3);
+  content: "/";
+}
+
+.home-screenshots {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  width: min(49vw, 540px);
+  min-height: 0;
+  padding: 4px 0 0;
+  transform: translateY(-3svh);
+}
+
+.home-screenshot-stage {
+  position: relative;
+  width: min(72%, 300px, 31svh);
+  aspect-ratio: 430 / 931;
+  margin: 0 auto;
+}
+
+.home-screenshot-card {
+  position: absolute;
+  inset: 0;
+  z-index: var(--stack-z);
+  margin: 0;
+  padding: 0;
+  transform:
+    translate3d(var(--stack-x), var(--stack-y), 0)
+    rotate(var(--stack-rotate))
+    scale(var(--stack-scale));
+  transform-origin: 50% 70%;
+  transition: transform 0.7s cubic-bezier(0.2, 0.72, 0.18, 1);
+  will-change: transform;
+}
+
+.home-screenshot-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 430 / 931;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(20, 24, 32, 0.11);
+}
+
+html.dark .home-screenshot-card img {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+}
+
+.home-screenshot-dots {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.home-screenshot-dots button {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--vp-c-divider);
+  transition: width 0.25s ease, background-color 0.25s ease;
+}
+
+.home-screenshot-dots button.active {
+  width: 24px;
+  background: var(--vp-c-brand-1);
+}
+
+@media (max-width: 960px) {
+  .VPHero .container {
+    padding-top: 12px;
+    padding-bottom: 34px;
+  }
+
+  .VPHero.has-image .container {
+    gap: 34px;
+  }
+
+  .VPHero .main {
+    max-width: 100%;
+    transform: translateY(-1.5svh);
+  }
+
+  .VPHero .name {
+    font-size: 56px;
+  }
+
+  .VPHero .text {
+    font-size: 36px;
+  }
+
+  .VPHero .tagline {
+    font-size: 18px;
+  }
+
+  .home-screenshots {
+    width: min(100%, 560px);
+    margin: 6px auto 0;
+    transform: translateY(-1.5svh);
+  }
+
+  .home-screenshot-stage {
+    width: min(60vw, 260px, 36svh);
+  }
+}
+
+@media (max-width: 640px) {
+  .VPHero .container {
+    padding-top: 8px;
+    padding-bottom: 18px;
+  }
+
+  .VPHero .name {
+    font-size: 36px;
+  }
+
+  .VPHero .text {
+    font-size: 24px;
+  }
+
+  .VPHero .tagline {
+    font-size: 15px;
+    line-height: 1.45;
+  }
+
+  .VPHero .actions {
+    margin-top: 18px;
+  }
+
+  .home-app-badge {
+    margin-bottom: 14px;
+  }
+
+  .home-app-badge img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .home-highlights {
+    display: none;
+  }
+
+  .home-proof {
+    margin-top: 16px;
+  }
+
+  .home-trust-line {
+    max-width: 300px;
+  }
+
+  .home-screenshots {
+    overflow: hidden;
+    transform: translateY(-1svh);
+  }
+
+  .home-screenshot-stage {
+    width: min(48vw, 170px, 26svh);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-screenshot-card {
+    transition: none;
+  }
 }
