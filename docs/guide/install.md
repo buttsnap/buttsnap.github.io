@@ -1,33 +1,33 @@
-# 下载与首次启动
+# Getting Started
 
-## 下载 App
+## Download
 
-ButtSnap 在 App Store 上架。打开 App Store 搜索「ButtSnap」或点击下方链接下载。
+ButtSnap is available on the App Store. Open the App Store and search for "ButtSnap" or tap the link below to download.
 
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/id6762453848)
 
-## 系统要求
+## System Requirements
 
-- iOS 26.0 或更高版本
-- 兼容 iPhone 和 iPad
+- iOS 26.0 or later
+- Compatible with iPhone and iPad
 
-## 首次启动
+## First Launch
 
-### 1. 打开 App
+### 1. Open the App
 
-安装完成后，点击主屏幕上的 ButtSnap 图标启动应用。你会看到一个可爱的柯基屁屁图标——这就是 ButtSnap 的招牌啦。
+Once installed, tap the ButtSnap icon on your Home Screen to launch the app. You'll be greeted by our friendly Corgi mascot — say hi!
 
-### 2. 授予权限
+### 2. Grant Permissions
 
-首次使用时，App 会请求以下权限：
+On first launch, the app will request the following permissions:
 
-- **相机权限**：用于拍摄照片来制作贴纸，请选择「允许」
-- **相册权限**：用于保存生成的贴纸到你的相册，请选择「允许」
+- **Camera**: Required for snapping photos of your discoveries. Tap "Allow"
+- **Photo Library**: Required for saving stickers to your device. Tap "Allow"
 
-仅此而已。ButtSnap 不会索取任何多余的权限，也没有网络请求——一切都发生在你的手机上。
+That's it! ButtSnap doesn't need an account, your email, or anything else. All processing happens right on your device, so there's nothing to sign up for.
 
-### 3. 开始探索
+### 3. Start Collecting
 
-无需注册、无需登录。权限设置好后就可以直接开始使用了。试试拍一张照片，看看你的第一枚贴纸吧！
+You're all set! Point your camera at something interesting and take your first snap. The app will automatically create your first sticker — it's that simple.
 
-如果后续想管理订阅或导出数据，可以在 App 内的「设置」页面操作。
+If you later want to manage your subscription or export data, you can do so from the Profile page within the app.

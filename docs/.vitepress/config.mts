@@ -4,6 +4,15 @@ const APP_STORE_ID = '6762453848'
 const APP_BUNDLE_ID = 'com.unoiou.cms.ButtSnap'
 const APP_STORE_URL = `https://apps.apple.com/app/id${APP_STORE_ID}`
 
+const screenshotLocaleForPath = (relativePath: string) => {
+  if (relativePath.startsWith('zh-Hant/')) return 'zh-hant'
+
+  const locale = relativePath.split('/')[0]
+  if (['en', 'ja', 'ko', 'fr', 'de', 'zh'].includes(locale)) return locale
+
+  return 'en'
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'ButtSnap',
@@ -23,9 +32,10 @@ export default defineConfig({
   cleanUrls: true,
 
   // Language redirect: map iOS locale IDs to locale keys
-  // Falls back to English (en) for unsupported locales
+  // Falls back to English at the root path for unsupported locales
   rewrites: {
     'en/:rest*': '/en/:rest*',
+    'zh/:rest*': '/zh/:rest*',
     'zh-Hant/:rest*': '/zh-Hant/:rest*',
     'ja/:rest*': '/ja/:rest*',
     'ko/:rest*': '/ko/:rest*',
@@ -37,8 +47,8 @@ export default defineConfig({
     const langParam = ctx.url?.match(/[?&]lang=([^&]+)/)?.[1]
     if (langParam) {
       const langMap: Record<string, string> = {
-        'zh-Hans': 'zh-CN',
-        'zh-CN': 'zh-CN',
+        'zh-Hans': 'zh',
+        'zh-CN': 'zh',
         'zh-TW': 'zh-Hant',
         'zh-HK': 'zh-Hant',
         'zh-MO': 'zh-Hant',
@@ -56,43 +66,64 @@ export default defineConfig({
         'de-DE': 'de',
       }
       const targetLang = langMap[langParam] ?? 'en'
-      ctx.headers.location = targetLang === 'zh-CN' ? '/' : `/${targetLang}/`
+      ctx.headers.location = targetLang === 'en' ? '/' : `/${targetLang}/`
     }
+  },
+
+  transformHead({ pageData }) {
+    if (pageData.frontmatter.layout !== 'home' || !pageData.relativePath.endsWith('index.md')) {
+      return []
+    }
+
+    const locale = screenshotLocaleForPath(pageData.relativePath)
+    return Array.from({ length: 4 }, (_, index) => {
+      const id = String(index + 1).padStart(2, '0')
+      return [
+        'link',
+        {
+          rel: 'preload',
+          as: 'image',
+          href: `/screenshots/home/${locale}/shot-${id}.webp`,
+          type: 'image/webp',
+          ...(index === 0 ? { fetchpriority: 'high' } : {}),
+        },
+      ] as const
+    })
   },
 
   // i18n configuration
   locales: {
     root: {
-      label: '简体中文',
-      lang: 'zh-CN',
+      label: 'English',
+      lang: 'en-US',
       dir: 'ltr',
-      title: 'ButtSnap - 应用文档与社区',
-      description: 'ButtSnap App 使用教程、常见问题、用户协议与隐私政策',
+      title: 'ButtSnap - App Docs & Community',
+      description: 'ButtSnap App user guide, FAQ, terms of service and privacy policy',
 
       themeConfig: {
         nav: [
-          { text: '首页', link: '/' },
-          { text: '使用教程', link: '/guide/' },
-          { text: '常见问题', link: '/faq' },
+          { text: 'Home', link: '/' },
+          { text: 'Guide', link: '/guide/' },
+          { text: 'FAQ', link: '/faq' },
           {
-            text: '法律条款',
+            text: 'Legal',
             items: [
-              { text: '用户协议', link: '/terms' },
-              { text: '隐私政策', link: '/privacy' },
+              { text: 'Terms of Service', link: '/terms' },
+              { text: 'Privacy Policy', link: '/privacy' },
             ],
           },
-          { text: '反馈', link: '/feedback' },
+          { text: 'Feedback', link: '/feedback' },
         ],
 
         sidebar: {
           '/guide/': [
             {
-              text: '使用教程',
+              text: 'User Guide',
               items: [
-                { text: '概述', link: '/guide/' },
-                { text: '安装与启动', link: '/guide/install' },
-                { text: '基本使用', link: '/guide/basic-usage' },
-                { text: '进阶功能', link: '/guide/advanced' },
+                { text: 'Overview', link: '/guide/' },
+                { text: 'Installation', link: '/guide/install' },
+                { text: 'Basic Usage', link: '/guide/basic-usage' },
+                { text: 'Advanced Features', link: '/guide/advanced' },
               ],
             },
           ],
@@ -100,27 +131,27 @@ export default defineConfig({
 
         editLink: {
           pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/:path',
-          text: '在 GitHub 上编辑此页',
+          text: 'Edit this page on GitHub',
         },
 
         lastUpdated: {
-          text: '最后更新',
+          text: 'Last updated',
         },
 
         outline: {
-          label: '页面导航',
+          label: 'On this page',
           level: [2, 3],
         },
 
         docFooter: {
-          prev: '上一页',
-          next: '下一页',
+          prev: 'Previous page',
+          next: 'Next page',
         },
 
-        darkModeSwitchLabel: '深色模式',
-        sidebarMenuLabel: '菜单',
-        returnToTopLabel: '回到顶部',
-        langMenuLabel: '切换语言',
+        darkModeSwitchLabel: 'Dark mode',
+        sidebarMenuLabel: 'Menu',
+        returnToTopLabel: 'Return to top',
+        langMenuLabel: 'Change language',
       },
     },
 
@@ -186,65 +217,65 @@ export default defineConfig({
       },
     },
 
-    en: {
-      label: 'English',
-      lang: 'en-US',
+    zh: {
+      label: '简体中文',
+      lang: 'zh-CN',
       dir: 'ltr',
-      title: 'ButtSnap - App Docs & Community',
-      description: 'ButtSnap App user guide, FAQ, terms of service and privacy policy',
+      title: 'ButtSnap - 应用文档与社区',
+      description: 'ButtSnap App 使用教程、常见问题、用户协议与隐私政策',
 
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Guide', link: '/en/guide/' },
-          { text: 'FAQ', link: '/en/faq' },
+          { text: '首页', link: '/zh/' },
+          { text: '使用教程', link: '/zh/guide/' },
+          { text: '常见问题', link: '/zh/faq' },
           {
-            text: 'Legal',
+            text: '法律条款',
             items: [
-              { text: 'Terms of Service', link: '/en/terms' },
-              { text: 'Privacy Policy', link: '/en/privacy' },
+              { text: '用户协议', link: '/zh/terms' },
+              { text: '隐私政策', link: '/zh/privacy' },
             ],
           },
-          { text: 'Feedback', link: '/en/feedback' },
+          { text: '反馈', link: '/zh/feedback' },
         ],
 
         sidebar: {
-          '/en/guide/': [
+          '/zh/guide/': [
             {
-              text: 'User Guide',
+              text: '使用教程',
               items: [
-                { text: 'Overview', link: '/en/guide/' },
-                { text: 'Installation', link: '/en/guide/install' },
-                { text: 'Basic Usage', link: '/en/guide/basic-usage' },
-                { text: 'Advanced Features', link: '/en/guide/advanced' },
+                { text: '概述', link: '/zh/guide/' },
+                { text: '安装与启动', link: '/zh/guide/install' },
+                { text: '基本使用', link: '/zh/guide/basic-usage' },
+                { text: '进阶功能', link: '/zh/guide/advanced' },
               ],
             },
           ],
         },
 
         editLink: {
-          pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/en/:path',
-          text: 'Edit this page on GitHub',
+          pattern: 'https://github.com/buttsnap/buttsnap.github.io/edit/main/docs/zh/:path',
+          text: '在 GitHub 上编辑此页',
         },
 
         lastUpdated: {
-          text: 'Last updated',
+          text: '最后更新',
         },
 
         outline: {
-          label: 'On this page',
+          label: '页面导航',
           level: [2, 3],
         },
 
         docFooter: {
-          prev: 'Previous page',
-          next: 'Next page',
+          prev: '上一页',
+          next: '下一页',
         },
 
-        darkModeSwitchLabel: 'Dark mode',
-        sidebarMenuLabel: 'Menu',
-        returnToTopLabel: 'Return to top',
-        langMenuLabel: 'Change language',
+        darkModeSwitchLabel: '深色模式',
+        sidebarMenuLabel: '菜单',
+        returnToTopLabel: '回到顶部',
+        langMenuLabel: '切换语言',
       },
     },
 
@@ -512,23 +543,6 @@ export default defineConfig({
           root: {
             translations: {
               button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档',
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
-                  closeText: '关闭',
-                },
-              },
-            },
-          },
-          en: {
-            translations: {
-              button: {
                 buttonText: 'Search',
                 buttonAriaLabel: 'Search documentation',
               },
@@ -539,6 +553,23 @@ export default defineConfig({
                   selectText: 'Select',
                   navigateText: 'Navigate',
                   closeText: 'Close',
+                },
+              },
+            },
+          },
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档',
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                  closeText: '关闭',
                 },
               },
             },

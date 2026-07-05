@@ -1,9 +1,9 @@
-# 使用教程
+# User Guide
 
-欢迎来到 ButtSnap！这里有你需要的全部指南，帮你轻松上手，把身边的小美好变成一枚枚可爱贴纸。
+Welcome to ButtSnap! Whether you just downloaded the app or you're looking to become a sticker-collecting pro, you'll find everything you need here.
 
-## 快速导航
+## Quick Navigation
 
-- [下载与首次启动](./install) — 下载 App 并完成初始设置
-- [基础使用](./basic-usage) — 掌握拍照做贴纸和浏览时间线的核心玩法
-- [进阶功能](./advanced) — 创建收藏集、拼贴画布、数据导出等高级玩法
+- [Getting Started](./install) — Download the app and set things up on first launch
+- [Basic Usage](./basic-usage) — Learn how to snap photos, create stickers, and browse your timeline
+- [Advanced Features](./advanced) — Dive into collections, canvas collages, and data management

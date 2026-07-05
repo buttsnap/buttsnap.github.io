@@ -1,118 +1,118 @@
-# 隐私政策
+# Privacy Policy
 
-> 最后更新日期：2026 年 5 月 8 日
+> Last updated: May 8, 2026
 
-## 概述
+## Overview
 
-我们深知隐私的重要性。ButtSnap 的核心理念就是「你的照片只属于你」。本隐私政策说明了 ButtSnap（以下简称「我们」或「本应用」）如何收集、使用和保护您的信息。
+We take privacy seriously. ButtSnap's core philosophy is simple: your photos belong to you and only you. This Privacy Policy explains how ButtSnap ("we", "us", or "the App") collects, uses, and protects your information.
 
-## 一、我们收集的信息
+## 1. Information We Collect
 
-### 我们不收集的信息
+### What We DON'T Collect
 
-ButtSnap 是一款完全本地的应用。我们**不收集**以下任何信息：
+ButtSnap is a completely on-device app. We **do not** collect:
 
-- 个人身份信息（姓名、邮箱、电话等）
-- 账号信息（本应用没有账号系统）
-- 您拍摄的照片（照片不会上传到任何服务器）
-- 您生成的贴纸
-- 位置信息
-- 通讯录
-- 浏览历史或使用习惯
-- 设备标识符
-- 任何形式的用户行为数据
+- Personal identification information (name, email, phone number, etc.)
+- Account information (the App has no account system)
+- Your photos (photos are never uploaded to any server)
+- Your generated stickers
+- Location data
+- Contacts
+- Browsing history or usage habits
+- Device identifiers
+- Any form of user behavior data
 
-### 可能收集的技术信息
+### Technical Information That May Be Collected
 
-为改善应用稳定性，我们可能通过 Apple 提供的崩溃报告服务收集完全匿名的技术数据：
+To improve app stability, we may receive fully anonymous technical data through Apple's crash reporting service:
 
-- 应用崩溃日志（通过 Apple 系统服务，非我们自行收集）
+- App crash logs (via Apple system services, not collected by us directly)
 
-此类数据完全匿名，无法关联到个人用户，且仅用于排查和修复技术问题。
+Such data is completely anonymous, cannot be linked to any individual user, and is used solely for diagnosing and fixing technical issues.
 
-## 二、信息的使用
+## 2. How We Use Information
 
-由于我们不收集用户数据，因此不存在使用个人信息用于商业目的、广告投放、用户画像或任何其他目的的情况。
+Since we do not collect user data, there is no use of personal information for commercial purposes, advertising, user profiling, or any other purpose.
 
-匿名崩溃日志（如有）仅用于修复应用 Bug，提升稳定性。
+Anonymous crash logs (if any) are used only to fix bugs and improve stability.
 
-## 三、照片与贴纸数据
+## 3. Photos & Stickers
 
-这是最重要的部分：
+This is the most important part:
 
-- 您拍摄的照片和生成的贴纸**完全存储在您的设备本地**
-- 所有的主体识别和贴纸生成过程**完全在设备本地完成**，照片不会离开您的手机
-- 我们**没有**后端服务器接收或存储您的任何照片
-- 我们没有技术能力访问您的照片或贴纸
-- 您在画布中创作的拼贴作品同样完全存储在本地
+- Photos you take and stickers you generate are **stored entirely on your device**
+- All subject recognition and sticker generation **happens entirely on-device** — your photos never leave your phone
+- We have **no** backend servers that receive or store any of your photos
+- We have no technical ability to access your photos or stickers
+- Collage works you create on the canvas are also stored entirely on your device
 
-## 四、数据导出与迁移
+## 4. Data Export & Migration
 
-我们支持完整的数据所有权：
+We support full data ownership:
 
-- 您可以随时在「个人」页面中导出全部贴纸和收藏集数据
-- 导出数据包为通用格式，不会被锁定在我们的应用中
-- 导入功能支持在新设备上完整恢复您的所有数据
-- 您的数据始终由您掌控——导出、备份、迁移，完全自由
+- You can export all your stickers and collection data anytime from the Profile page
+- Exported data is in a universal format and will not be locked into our app
+- The import feature supports fully restoring all your data on a new device
+- Your data is always under your control — export, back up, migrate, completely free
 
-## 五、Pro 订阅与支付
+## 5. Pro Subscription & Payments
 
-Pro 订阅通过 Apple App Store 内购系统处理：
+Pro subscriptions are processed through Apple's App Store In-App Purchase system:
 
-- 我们**不会**获取您的支付信息（信用卡号、银行卡等）
-- 所有支付由 Apple 安全处理，我们无法访问
-- 订阅管理完全由您的 Apple ID 控制
-- 我们**不会**追踪您的订阅行为用于广告或分析
+- We **do not** receive your payment information (credit card numbers, bank details, etc.)
+- All payments are securely handled by Apple — we have no access
+- Subscription management is entirely controlled by your Apple ID
+- We **do not** track your subscription behavior for advertising or analytics
 
-## 六、第三方服务
+## 6. Third-Party Services
 
-本应用仅使用以下系统级服务：
+The App uses only the following system-level services:
 
-- **Apple 相机与相册**：用于拍摄和保存贴纸图片
-- **Apple 内购系统**：用于处理 Pro 订阅（如您选择订阅）
-- **Apple 崩溃报告**：可选的系统级崩溃诊断服务
+- **Apple Camera & Photo Library**: For capturing and saving sticker images
+- **Apple In-App Purchase**: For processing Pro subscriptions (if you choose to subscribe)
+- **Apple Crash Reporting**: Optional system-level crash diagnostic service
 
-这些服务受 Apple 隐私政策的约束。建议您阅读 [Apple 的隐私政策](https://www.apple.com/legal/privacy/) 以了解更多。
+These services are governed by Apple's Privacy Policy. We recommend reading [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for more details.
 
-我们不集成任何第三方广告 SDK、分析 SDK 或社交 SDK。本应用没有广告，没有追踪器，没有数据收集。
+We do not integrate any third-party advertising SDKs, analytics SDKs, or social SDKs. This App has no ads, no trackers, and no data collection.
 
-## 七、无账号 · 无追踪 · 无广告
+## 7. No Account · No Tracking · No Ads
 
-一句话总结 ButtSnap 的隐私理念：
+ButtSnap's privacy philosophy in one sentence:
 
-- **无账号**：不需要注册，不需要登录，打开即用
-- **无追踪**：不记录你的使用行为，不做用户画像
-- **无广告**：不展示任何形式的广告，不集成广告 SDK
+- **No Account**: No registration needed, no login required — open and use immediately
+- **No Tracking**: We do not record your usage behavior or build user profiles
+- **No Ads**: We do not display any form of advertising or integrate any ad SDKs
 
-## 八、儿童隐私
+## 8. Children's Privacy
 
-本应用不面向 13 岁以下儿童。由于我们不需要也不收集任何用户的个人信息，我们不会有意或无意地收集儿童的信息。
+The App is not directed at children under 13. Since we do not require or collect any personal information from any user, we do not knowingly or unknowingly collect information from children.
 
-## 九、数据安全
+## 9. Data Security
 
-由于您的所有数据完全存储在本地设备上，数据安全依赖于：
+Since all your data is stored entirely on your local device, data security depends on:
 
-- 您设备的系统安全机制（加密存储、安全隔区等）
-- 您设置的设备密码或生物识别保护
+- Your device's system security mechanisms (encrypted storage, Secure Enclave, etc.)
+- Your device passcode or biometric protection
 
-我们建议您保持 iOS 系统更新并使用设备密码保护。
+We recommend keeping your iOS system updated and using device passcode protection.
 
-## 十、隐私政策更新
+## 10. Updates to This Policy
 
-我们可能会不时更新本隐私政策。更新后的政策将在本网站公布。如有重大变更，我们会在应用内以适当方式通知您。
+We may update this Privacy Policy from time to time. Updated policies will be posted on this website. Material changes will be communicated within the App as appropriate.
 
-## 十一、您的权利
+## 11. Your Rights
 
-根据适用的数据保护法律，您享有以下权利：
+Under applicable data protection laws, you have the following rights:
 
-- **数据所有权**：您的贴纸数据完全属于您，存储在您的设备上
-- **数据可迁移性**：通过数据导出功能随时导出全部数据
-- **删除权**：随时在 App 内删除贴纸，或删除 App 清除所有本地数据
-- **知情权**：本隐私政策详细说明了我们的数据处理方式
+- **Data Ownership**: Your sticker data belongs entirely to you and is stored on your device
+- **Data Portability**: Export all your data anytime through the data export feature
+- **Right of Deletion**: Delete stickers within the App at any time, or delete the App to remove all local data
+- **Right to Be Informed**: This Privacy Policy details how we handle your data
 
-## 十二、联系我们
+## 12. Contact Us
 
-如对本隐私政策有任何疑问，请通过以下方式联系：
+If you have questions about this Privacy Policy, please contact us via:
 
 - GitHub Issues: [https://github.com/buttsnap/buttsnap.github.io/issues](https://github.com/buttsnap/buttsnap.github.io/issues)
-- 邮箱: buttsnap@unoiou.com
+- Email: buttsnap@unoiou.com

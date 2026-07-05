@@ -1,89 +1,89 @@
-# 常见问题
+# FAQ
 
-## 贴纸制作
+## Sticker Making
 
-### Q: 什么样的照片做贴纸效果最好？
+### Q: What kinds of photos make the best stickers?
 
-A: 主体清晰、与背景有明显区分的照片效果最佳。给几个小建议：
-- 拍桌面上的小物件时，背景干净一点识别更准
-- 光线充足的环境下拍摄，贴纸边缘更精致
-- 主体尽量完整出现在画面中，不要被切掉一半
-- 色彩鲜艳的主体效果特别棒
+A: Photos with a clear subject that stands out from the background work best. A few tips:
+- When shooting small objects on a table, a cleaner background gives more accurate results
+- Sufficient lighting helps produce more refined sticker edges
+- Try to keep the subject fully in frame — don't let it get cut off
+- Bright, colorful subjects look especially great
 
-### Q: 为什么有时候主体识别不够精准？
+### Q: Why is the subject recognition sometimes not accurate enough?
 
-A: 局部处理虽然很聪明，但在以下情况可能会有偏差：
-- 主体和背景颜色太接近（比如白色杯子在白色桌面上）
-- 光线太暗导致主体轮廓不清晰
-- 画面中有多个重叠的物体
+A: The on-device processing is smart, but it can struggle in certain situations:
+- The subject and background colors are too similar (e.g., a white cup on a white table)
+- Lighting is too dim, making the subject outline unclear
+- There are multiple overlapping objects in the frame
 
-遇到这种情况，换个角度、调整一下光线再拍一张试试。我们也在持续改进识别效果！
+If this happens, try a different angle or adjust the lighting and take another shot. We're continually improving the recognition too!
 
-### Q: 可以从相册选照片做贴纸吗？
+### Q: Can I pick photos from my album to make stickers?
 
-A: 当然可以！在贴纸创建界面切换到相册模式，选择已有的照片来生成贴纸。之前旅行的照片、宠物的旧照，都可以变成贴纸。
+A: Of course! Switch to album mode in the sticker creation screen and select existing photos to generate stickers. Old travel photos, pet pictures — they can all become stickers.
 
-### Q: 贴纸会保存到哪里？
+### Q: Where are stickers saved?
 
-A: 贴纸保存在 App 内部，按日期整理在时间线里。你也可以随时将单张贴纸或整个画布导出到系统相册。
+A: Stickers are saved inside the App, organized by date in the timeline. You can also export individual stickers or entire canvases to your system photo library anytime.
 
-### Q: 贴纸的格式和画质如何？
+### Q: What format and quality are the stickers?
 
-A: 贴纸以高清图片格式保存，带有透明背景，方便你在任何地方使用。导出到相册的贴纸会保留白色边框和光晕效果，看起来就像一枚真正的实体贴纸。
+A: Stickers are saved as high-resolution images with transparent backgrounds, making them easy to use anywhere. Stickers exported to your photo library retain the white border and glow effect, looking just like a real physical sticker.
 
-## 整理与管理
+## Organization & Management
 
-### Q: 如何批量整理贴纸？
+### Q: How do I organize stickers in batches?
 
-A: 使用收藏集功能！创建不同主题的收藏集，把贴纸分门别类放进去。想翻看某个主题的贴纸时，直接进入对应收藏集即可，不用在时间线里翻找。
+A: Use the collections feature! Create collections around different themes and sort your stickers into categories. When you want to browse stickers of a particular theme, just go straight to the corresponding collection — no need to dig through the timeline.
 
-### Q: 删除收藏集会影响贴纸吗？
+### Q: Will deleting a collection affect my stickers?
 
-A: 不会。删除收藏集只是移除这个分类，收藏集里的贴纸仍然保留在你的时间线里，不会丢失。
+A: No. Deleting a collection only removes that grouping. The stickers in the collection remain in your timeline and will not be lost.
 
-### Q: 换手机了怎么迁移数据？
+### Q: How do I migrate data when switching to a new phone?
 
-A: 在旧手机的 ButtSnap「个人 → 数据」中导出数据包，然后通过隔空投送、文件 App 或电脑传到新手机，在新手机的 ButtSnap 中导入即可。所有贴纸和收藏集结构都会完整迁移。
+A: On your old phone, go to ButtSnap "Profile → Data" and export your data package. Then transfer it to your new phone via AirDrop, the Files app, or a computer, and import it in ButtSnap on the new device. All your stickers and collection structures will be fully migrated.
 
-## 隐私与安全
+## Privacy & Security
 
-### Q: 我的照片会上传到服务器吗？
+### Q: Are my photos uploaded to a server?
 
-A: 不会。ButtSnap 所有的主体识别和贴纸生成都在你的设备本地完成。照片不会上传到任何服务器，不会发送给任何人。你拍的每一张照片都只留在你的手机里。
+A: No. All of ButtSnap's subject recognition and sticker generation happens on your device. Photos are never uploaded to any server or sent to anyone. Every photo you take stays only on your phone.
 
-### Q: 需要注册账号吗？
+### Q: Do I need to create an account?
 
-A: 不需要。ButtSnap 没有账号系统，打开就能用。你的所有数据都存储在你的设备上。
+A: No. ButtSnap has no account system — just open and use. All your data is stored on your device.
 
-### Q: 删除 App 后贴纸会丢失吗？
+### Q: Will I lose my stickers if I delete the app?
 
-A: 会。贴纸数据存储在 App 内部，不是系统相册。所以删除 App 前，记得先在「个人 → 数据」中导出数据备份。已导出到系统相册的贴纸图片不受影响。
+A: Yes. Sticker data is stored inside the App, not in your system photo library. So before deleting the app, remember to export a data backup from "Profile → Data" first. Sticker images you've already exported to your photo library are unaffected.
 
-## Pro 订阅
+## Pro Subscription
 
-### Q: 免费版有什么限制？
+### Q: What are the limitations of the free version?
 
-A: 免费版每天有一定数量的贴纸创建额度，日常记录完全够用。如果你拍得比较勤，或者想解锁更多精美背景样式，可以考虑订阅 Pro。
+A: The free version has a daily sticker creation allowance, which is perfectly sufficient for casual daily recording. If you snap more frequently or want to unlock more premium background styles, consider subscribing to Pro.
 
-### Q: Pro 怎么订阅和取消？
+### Q: How do I subscribe to and cancel Pro?
 
-A: 在 App 内「个人」页面可以管理订阅。订阅通过你的 Apple ID 处理，费用由 Apple 统一结算。如需取消，在 iPhone「设置 → Apple ID → 订阅」中操作即可，随时可取消。
+A: You can manage your subscription from the "Profile" page in the app. The subscription is processed through your Apple ID, with billing handled by Apple. To cancel, go to iPhone "Settings → Apple ID → Subscriptions" — you can cancel anytime.
 
-### Q: 订阅到期后我的贴纸还在吗？
+### Q: Will my stickers still be there after my subscription expires?
 
-A: 当然在！订阅到期不会影响你已经创建的贴纸和收藏集。只是免费版的每日额度会恢复生效。
+A: Absolutely! Subscription expiration does not affect stickers and collections you've already created. Only the free-tier daily allowance will resume.
 
-## 其他
+## Other
 
-### Q: ButtSnap 这个名字是什么意思？
+### Q: What does the name ButtSnap mean?
 
-A: 「Butt」来自柯基犬的圆润屁屁——这是 App 最核心的彩蛋和品牌符号。App 的图标就是一只柯基屁屁。试试在「个人」页面双击 App 图标，你会发现一个让人会心一笑的小动画 🐾
+A: "Butt" comes from the corgi's round butt — the app's core mascot and brand symbol. The app icon is a corgi butt. Try double-tapping the app icon on the Profile page and you'll discover a delightful little animation 🐾
 
-### Q: 如何反馈问题或提建议？
+### Q: How do I submit feedback or suggestions?
 
-A: 非常欢迎！你可以：
-- 在 [GitHub Issues](https://github.com/buttsnap/buttsnap.github.io/issues) 提交问题或建议
-- 访问[反馈页面](/feedback)了解更多提交方式
-- 发送邮件到 buttsnap@unoiou.com
+A: Very welcome! You can:
+- Submit issues or suggestions on [GitHub Issues](https://github.com/buttsnap/buttsnap.github.io/issues)
+- Visit the [Feedback page](/feedback) for more ways to reach us
+- Send an email to buttsnap@unoiou.com
 
-我们是一个小团队，每一条反馈都会认真看。
+We're a small team, and we read every piece of feedback carefully.

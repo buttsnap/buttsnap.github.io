@@ -1,46 +1,47 @@
-# 基础使用
+# Basic Usage
 
-## 拍照制作贴纸
+## Snapping Stickers
 
-ButtSnap 的核心玩法很简单：拍一张照片，自动变成一枚精美贴纸。
+The heart of ButtSnap is turning everyday moments into collectible stickers. Here's how it works:
 
-### 拍照
+### Take a Snap
 
-1. 打开 App，你会看到拍摄界面
-2. 将你想拍的物体放在画面中央——一朵花、一杯咖啡、一个可爱的小摆件
-3. 轻点快门按钮拍照
+1. Open the app — you'll see the camera viewfinder right away
+2. Find something interesting: a tiny souvenir, a pretty flower, a cute cup, a unique keychain
+3. Point your camera at the subject and tap the shutter button
+4. ButtSnap automatically isolates the main subject, removes the background, and applies a beautiful white border with a soft glow
+5. Your new sticker appears in your timeline instantly
 
-### 自动生成贴纸
+### Tips for Great Stickers
 
-拍照后，App 会自动识别照片中的主体，去除背景，并给主体加上白色描边和柔和光晕——就像一枚真正的贴纸。整个过程在瞬间完成，你什么都不用做。
+- **Good lighting helps**: Natural light or well-lit scenes produce the cleanest stickers
+- **Keep it simple**: Single, distinct subjects work best — think one object, not a crowded scene
+- **Steady hands**: Hold still while capturing for the sharpest results
+- **Play with angles**: Try top-down shots of small objects on a table for satisfying flat-lay stickers
+- **Use your photo library**: You can also pick existing photos from your album to generate stickers — old travel photos, pet pictures, anything
 
-### 贴士：拍出更好的贴纸
+## Browsing Your Timeline
 
-- 让主体与背景有明显区分，效果会更好（比如桌上的杯子、草地上的花朵）
-- 充足的光线有助于更精准的主体识别
-- 尽量让主体完整出现在画面中，不要被裁切
-- 也可以从相册中选取已有照片来生成贴纸
+All your stickers are automatically organized by date, like a sticker diary.
 
-## 浏览你的贴纸时间线
+### Timeline View
 
-所有贴纸会自动按日期整理排列，像一本贴纸日记。
+Open the app's main page and you'll see all stickers grouped by date:
 
-### 时间线视图
+- Each date displays all the stickers created that day
+- Swipe through to browse different dates
+- Flip through like a diary and revisit every charming moment you've collected
 
-打开 App 主页，你会看到按日期分组的所有贴纸：
+### View Sticker Details
 
-- 每个日期下展示当天生成的所有贴纸
-- 左右滑动可以翻阅不同日期的内容
-- 像翻看日记一样，回顾你收藏的每一个可爱瞬间
+Tap any sticker to view it in full detail. From here you can:
 
-### 查看贴纸详情
+- **Delete**: If you're not happy with a sticker, you can delete it
+- **Add to Collection**: Categorize the sticker into one of your collections
+- **Export**: Save the sticker to your photo library or share it with friends
 
-点击任意一枚贴纸，可以放大查看细节，也可以执行以下操作：
+## Sharing Your Stickers
 
-- **删除**：如果这枚贴纸不满意，可以直接删除
-- **加入收藏集**：把这枚贴纸归类到你创建的收藏集里
-- **导出**：把贴纸保存到相册或分享给朋友
-
-## 分享你的贴纸
-
-选中贴纸后，你可以通过系统分享菜单将它发送到微信、朋友圈，或者保存到相册。每一枚贴纸都是高质量的透明背景图片，分享出去超好看。
+- Tap any sticker to open it in detail view, then tap the share button
+- Share individual stickers with friends via Messages, social media, or save to your photo library
+- Exported stickers keep their white border and glow effect — they look great everywhere

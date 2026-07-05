@@ -1,67 +1,77 @@
-# 进阶功能
+# Advanced Features
 
-## 创建收藏集
+## Collections
 
-当你的贴纸越来越多，收藏集功能可以帮助你更有条理地整理它们。
+Collections let you group related stickers together — perfect for curating themed sets and telling stories.
 
-### 新建收藏集
+### Creating a Collection
 
-1. 进入「收藏集」页面
-2. 点击「新建收藏集」
-3. 给收藏集起一个名字，比如「城市漫步」「咖啡打卡」「可爱小车」
-4. 选择一枚封面贴纸
-5. 创建完成！
+1. Tap the Collections tab
+2. Tap the "+" button to create a new collection
+3. Give it a name — something fun like "City Walk", "Coffee Cups", or "Cute Cars"
+4. Tap "Done"
 
-### 管理收藏集
+### Adding Stickers to a Collection
 
-- **添加贴纸**：在贴纸详情页中，选择「加入收藏集」并勾选目标收藏集
-- **移除贴纸**：进入收藏集，长按贴纸选择移除
-- **编辑收藏集**：修改收藏集名称、更换封面、删除整个收藏集（不会删除贴纸本身）
+1. Open any sticker from your timeline
+2. Tap "Add to Collection"
+3. Select the collection you want — the sticker joins instantly
 
-收藏集让你的收藏更有主题感，也方便你向朋友展示某一类贴纸——比如「给你看我这周拍的所有猫猫！」
+You can add the same sticker to multiple collections. A coffee cup sticker can belong to both "Coffee Cups" and "Morning Finds"!
 
-## 画布拼贴
+### Managing Collections
 
-画布功能让你能把多枚贴纸自由组合，创造独一无二的拼贴作品。
+- **Rename**: Tap a collection's name to edit it
+- **Reorder**: Long-press and drag to rearrange your collections
+- **Delete**: Swipe left on a collection to remove it (your stickers are safe — only the grouping is removed)
 
-### 创建拼贴
+## Canvas
 
-1. 进入「画布」页面，点击新建画布
-2. 从你的贴纸库中选取贴纸，拖入画布
-3. 自由调整每枚贴纸的位置、大小和旋转角度
-4. 可以叠加摆放，创造出丰富的层次感
+Canvas is your creative playground where stickers come together.
 
-### 导出作品
+### Creating a Collage
 
-完成拼贴后，点击导出按钮，即可将整张画布保存为高清图片。你可以：
+1. Tap the Canvas tab
+2. Tap "New Canvas" to start with a blank canvas
+3. Tap "Add Stickers" to pick stickers from your collection
+4. Drag, pinch, and rotate to position each sticker exactly how you want
+5. Use the background picker to choose a canvas background color or texture
 
-- 保存到相册
-- 直接分享到社交平台
-- 导出后用作手机壁纸
+### Canvas Tips
 
-无论是做旅行手帐、日常记录，还是纯粹觉得好玩，画布都能给你充分的创作自由。
+- **Layer it up**: Place stickers on top of each other to create depth
+- **Themed walls**: Create a "sticker wall" by filling the canvas with stickers from a single collection
+- **Export & share**: When you're happy, tap export to save your creation as an image or share it directly
 
-## 数据导出与导入
+## Data Management
 
-ButtSnap 完全支持数据迁移，你的贴纸永远属于你。
+### Export Your Collection
 
-### 导出全部数据
+You own your data. Export your entire sticker collection anytime:
 
-在「个人」→「数据」中，点击「导出全部数据」：
+1. Go to Profile → Data
+2. Tap "Export Data"
+3. Choose a save location — your exported collection includes all stickers and their metadata
+4. Use this to back up, migrate to a new device, or just keep a safe copy
 
-- 所有贴纸图片会以原图质量导出
-- 收藏集结构和分类信息会一并保留
-- 导出为一个压缩包，可以保存到文件 App 或发送到电脑
+### Import Your Collection
 
-### 导入数据
+1. Go to Profile → Data
+2. Tap "Import Data"
+3. Select a previously exported backup file
+4. Your stickers and collections are restored
 
-换新手机了？从旧设备导出的数据包，可以在新设备的 ButtSnap 中一键导入，所有贴纸和收藏集结构都会完整还原。
+### Storage Notes
 
-## Pro 订阅
+- Stickers are stored on your device. ButtSnap doesn't upload anything to the cloud
+- If you delete the app, your stickers are removed. We recommend exporting a backup if you plan to reinstall
+- The app itself uses very little storage — only your sticker images take up space
 
-ButtSnap 基础功能免费使用，每天有一定数量的贴纸创建额度。如果你想：
+## Pro Subscription
 
-- **无限制作贴纸**：不限每天的拍摄和贴纸生成数量
-- **更多精美背景**：解锁 Pro 专属的贴纸背景样式
+ButtSnap's core features are free to use, with a daily sticker creation allowance. If you want:
 
-可以订阅 ButtSnap Pro。订阅通过 Apple ID 管理，可以随时在系统设置中取消。
+- **Unlimited stickers**: Remove the daily capture and sticker generation limit
+- **More premium backgrounds**: Unlock Pro-exclusive sticker background styles
+
+You can subscribe to ButtSnap Pro. The subscription is managed through your Apple ID and can be canceled anytime in your device's system settings.

@@ -3,14 +3,14 @@ layout: home
 
 hero:
   name: ButtSnap
-  text: 拍下美好，收藏生活
-  tagline: 把身边的可爱瞬间，变成一枚枚专属贴纸
+  text: Collect Life's Little Joys
+  tagline: Snap everyday moments and turn them into beautiful collectible stickers — right on your phone
   actions:
     - theme: brand
-      text: 开始使用
+      text: Get Started
       link: /guide/
     - theme: alt
-      text: 下载 App
+      text: Download
       link: https://apps.apple.com/app/id6762453848
   image:
     src: /app-icon.png
@@ -18,21 +18,21 @@ hero:
 
 features:
   - icon: 📸
-    title: 一拍成贴
-    details: 对准你感兴趣的任何东西——路边小花、咖啡拉花、可爱小车——按下快门，App 会自动识别主体并生成带有白边和柔和光晕的精美贴纸
+    title: Snap → Sticker
+    details: Point your camera at anything that catches your eye — a cute cup, a pretty leaf, a tiny souvenir. ButtSnap intelligently isolates the subject and turns it into a beautiful sticker with a soft glow and white border.
   - icon: 📅
-    title: 按日归档
-    details: 所有贴纸自动按日期整理，像写日记一样翻阅你的日常收藏。「4 月 13 日」这一天拍了什么，一目了然
+    title: Your Daily Sticker Diary
+    details: All your stickers are automatically organized by date. Scroll through your timeline and see what you discovered each day — like flipping through a visual journal of tiny joys.
   - icon: 📦
-    title: 主题收藏集
-    details: 创建自定义收藏集，把相关贴纸归类到一起。「城市漫步」「可爱小车」「咖啡打卡」——用你的方式整理小世界
+    title: Themed Collections
+    details: Group your stickers into collections like "City Walk", "Coffee Cups", or "Cute Cars". A fun, satisfying way to curate your finds and tell stories through stickers.
   - icon: 🎨
-    title: 自由画布
-    details: 把你的贴纸自由组合成拼贴画或贴纸墙，随心排版，一键导出分享
+    title: Canvas & Collage
+    details: Combine your favorite stickers into creative collages and sticker walls. Arrange, layer, and play — then export and share your creations with friends.
   - icon: 🔒
-    title: 本地处理 · 无需注册
-    details: 所有主体识别和贴纸生成都在设备本地完成，照片不会上传到任何服务器。无需注册账号，打开即用
+    title: 100% On-Device · No Account Needed
+    details: All subject recognition and sticker generation happens on-device. Photos are never uploaded to any server. No account needed — just open and go.
   - icon: 🐾
-    title: 柯基屁屁的小惊喜
-    details: App 的名字和图标藏了一个柯基屁屁的小彩蛋——试试在「个人」页面双击 App 图标，看看会发生什么
+    title: A Corgi Butt Surprise
+    details: The app's name and icon hide a corgi butt easter egg — try double-tapping the app icon on the Profile page and see what happens.
 ---

@@ -1,10 +1,15 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useData } from 'vitepress'
 
 const { lang } = useData()
+const PRELOAD_STACK_COUNT = 4
 const activeIndex = ref(0)
+const loadedScreenshots = ref(new Set<string>())
 let rotationTimer: ReturnType<typeof setInterval> | undefined
+let preloadRun = 0
+let reduceMotion = false
+let hasMounted = false
 
 const screenshotLocale = computed(() => {
   if (lang.value.startsWith('en')) return 'en'
@@ -23,6 +28,12 @@ const screenshots = computed(() =>
     const id = String(index + 1).padStart(2, '0')
     return `/screenshots/home/${screenshotLocale.value}/shot-${id}.webp`
   }),
+)
+
+const initialStackScreenshots = computed(() => screenshots.value.slice(0, PRELOAD_STACK_COUNT))
+
+const isInitialStackReady = computed(() =>
+  initialStackScreenshots.value.every((src) => loadedScreenshots.value.has(src)),
 )
 
 const stackItems = computed(() =>
@@ -58,28 +69,90 @@ const stackStyle = (offset: number) => {
   }
 }
 
+const markScreenshotReady = (src: string) => {
+  if (loadedScreenshots.value.has(src)) return
+
+  const nextLoadedScreenshots = new Set(loadedScreenshots.value)
+  nextLoadedScreenshots.add(src)
+  loadedScreenshots.value = nextLoadedScreenshots
+}
+
+const isScreenshotReady = (src: string) => loadedScreenshots.value.has(src)
+
+const preloadImage = (src: string) =>
+  new Promise<void>((resolve) => {
+    if (loadedScreenshots.value.has(src)) {
+      resolve()
+      return
+    }
+
+    const image = new Image()
+    image.decoding = 'async'
+    image.onload = () => {
+      markScreenshotReady(src)
+      resolve()
+    }
+    image.onerror = () => resolve()
+    image.src = src
+  })
+
+const stopRotation = () => {
+  if (!rotationTimer) return
+  clearInterval(rotationTimer)
+  rotationTimer = undefined
+}
+
+const startRotation = () => {
+  if (reduceMotion || rotationTimer) return
+  rotationTimer = setInterval(advance, 3200)
+}
+
+const preloadScreenshots = async (sources: string[]) => {
+  const run = ++preloadRun
+  stopRotation()
+
+  await Promise.all(sources.slice(0, PRELOAD_STACK_COUNT).map(preloadImage))
+  if (run !== preloadRun) return
+
+  startRotation()
+  sources.slice(PRELOAD_STACK_COUNT).forEach((src) => {
+    void preloadImage(src)
+  })
+}
+
 onMounted(() => {
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-  if (!reduceMotion) {
-    rotationTimer = setInterval(advance, 3200)
-  }
+  hasMounted = true
+  reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  void preloadScreenshots(screenshots.value)
+})
+
+watch(screenshots, (nextScreenshots) => {
+  if (!hasMounted) return
+  activeIndex.value = 0
+  void preloadScreenshots(nextScreenshots)
 })
 
 onBeforeUnmount(() => {
-  if (rotationTimer) clearInterval(rotationTimer)
+  stopRotation()
 })
 </script>
 
 <template>
-  <div class="home-screenshots" aria-label="ButtSnap App Store screenshot carousel">
+  <div
+    class="home-screenshots"
+    :class="{ 'is-loading': !isInitialStackReady }"
+    aria-label="ButtSnap App Store screenshot carousel"
+    :aria-busy="!isInitialStackReady"
+  >
     <div class="home-screenshot-stage">
       <figure
         v-for="item in stackItems"
         :key="item.src"
         class="home-screenshot-card"
-        :class="{ 'is-active': item.offset === 0 }"
+        :class="{ 'is-active': item.offset === 0, 'is-loaded': isScreenshotReady(item.src) }"
         :style="stackStyle(item.offset)"
       >
+        <div class="home-screenshot-skeleton" aria-hidden="true"></div>
         <img
           :src="item.src"
           :alt="item.offset === 0 ? `ButtSnap App Store screenshot ${item.index + 1}` : ''"
@@ -87,6 +160,7 @@ onBeforeUnmount(() => {
           height="931"
           decoding="async"
           :loading="item.offset === 0 ? 'eager' : 'lazy'"
+          @load="markScreenshotReady(item.src)"
         />
       </figure>
     </div>
@@ -98,6 +172,7 @@ onBeforeUnmount(() => {
         :class="{ active: index === activeIndex }"
         :aria-label="`Show screenshot ${index + 1}`"
         :aria-current="index === activeIndex ? 'true' : undefined"
+        :disabled="!isInitialStackReady"
         @click="selectScreenshot(index)"
       ></button>
     </div>
